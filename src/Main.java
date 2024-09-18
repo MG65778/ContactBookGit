@@ -169,10 +169,7 @@ public class Main {
     }
 
     private static void equalPhones(ContactBook cBook) {
-        if (cBook.equalPhones())
-            System.out.println(NMR_SHARE);
-        else
-            System.out.println(NMR_DIFF);
+        System.out.println(cBook.equalPhones() ? NMR_SHARE : NMR_DIFF);
     }
 
 }
